@@ -3,7 +3,7 @@ title: Eólica
 email: blogeolica@gmail.com
 description: Blog sobre livros e séries. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://eolica.com" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 twitter_username: bloageolica
 github_username:  blogeolica
 
