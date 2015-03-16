@@ -4,8 +4,8 @@ email: blogeolica@gmail.com
 description: Blog sobre livros e séries. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://eolica.com" # the base hostname & protocol for your site
-twitter_username: #nenhum
-github_username:  #nhenhum
+twitter_username: bloageolica
+github_username:  blogeolica
 
 # Build settings
 markdown: kramdown
