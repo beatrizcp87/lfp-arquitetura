@@ -1,9 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
 
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100|Roboto:400,300,300italic,100,400italic,500,500italic,700,700italic,100italic);
 
 // Typography
+$title-font: 'Roboto Slab', serif;
 $base-font-family:'Roboto', sans-serif;
-$heading-font-family: $base-font-family;
+$heading-font-family: $title-font;
+>>>>>>> last changes
 
 // Font Sizes
 $base-font-size: 1em;

@@ -4,11 +4,46 @@
  body{
   background: url(/eolica/images/bg.jpg) no-repeat #000;
   background-size: cover;
+  color: #fff;
  }
+
+.logo-box{
+  margin: 150px auto;
+  display: block;
+  width: 290px;
+  height: 290px;
+  background-color: rgba(0,0,0, 0.5);
+  border-radius: 50%;
+  padding: 20px;
+  padding-top:100px;
+  span{ 
+    color: #fff;
+    font-size: 48px !important;
+    vertical-align: middle;
+  }
+}
+
+img.logo-center{
+  display: inline-block;
+  height: 100px;
+  width: auto;
+  vertical-align: middle;
+}
+
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
   min-height: 56px;
+  background-color: rgba(0,0,0, 0.4);
+  top:0;
+  width: 100%;
+  vertical-align: top;
+  a{color:#fff;}
+  img{ 
+    height: 40px;
+    width: auto;
+  }
+  .wrapper{
+    padding: 5px 0;
+  }
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -19,11 +54,13 @@
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
+  color: #fff;
+  font-family: 'Roboto Slab', serif;
   float: left;
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: #fff;
   }
 }
 
@@ -36,7 +73,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: #fff;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the first one
@@ -98,6 +135,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background-color: #000;
 }
 
 .footer-heading {
@@ -167,6 +205,10 @@
  */
 .page-content {
   padding: $spacing-unit 0;
+  .wrapper{
+    background-color: #fff;
+    padding-top: 40px;
+  }
 }
 
 .page-heading {
@@ -238,3 +280,4 @@
     }
   }
 }
+
