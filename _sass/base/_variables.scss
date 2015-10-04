@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
+
+
 // Typography
-$base-font-family: $helvetica;
+$base-font-family:'Roboto', sans-serif;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -20,9 +23,10 @@ $blue: #477dca;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
+$bg: #f4f4f4;
 
 // Font Colors
-$base-background-color: #fff;
+$base-background-color: $bg;
 $base-font-color: $dark-gray;
 $action-color: $blue;
 
