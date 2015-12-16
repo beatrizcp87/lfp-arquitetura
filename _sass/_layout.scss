@@ -16,7 +16,7 @@
   border-radius: 50%;
   padding: 20px;
   padding-top:100px;
-  span{ 
+  span{
     color: #fff;
     font-size: 48px !important;
     vertical-align: middle;
@@ -37,7 +37,7 @@ img.logo-center{
   width: 100%;
   vertical-align: top;
   a{color:#fff;}
-  img{ 
+  img{
     height: 40px;
     width: auto;
   }
@@ -280,4 +280,67 @@ img.logo-center{
     }
   }
 }
+
+#lfp{
+  background-color: #000;
+  text-align: center;
+  h1.logo{
+    margin: 300px auto 0 auto;
+    width: 485px;
+    height: 53px;
+    background-image: url('/images/lfp-logo.png');
+  }
+  .menu{
+    margin: 20px auto 0 auto;
+    width: 485px;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    li{
+      opacity: 0;
+      &.one{
+        -webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+        transition: opacity 1s;
+      }
+      &.two{
+        -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+        transition: opacity 2s;
+      }
+      &.three{
+        -webkit-transition: opacity 3s; /* For Safari 3.1 to 6.0 */
+        transition: opacity 3s;
+      }
+      &.four{
+        -webkit-transition: opacity 4s; /* For Safari 3.1 to 6.0 */
+        transition: opacity 4s;
+      }
+    }
+  }
+  &:hover ul li{ opacity: 1;}
+  ul li{
+    text-transform: uppercase;
+    text-align: left;
+    margin: 5px 0;
+    padding: 0;
+    list-style: none;
+    cursor: pointer;
+    &:before{
+      content: "//";
+      margin-right: 10px;
+    }
+    &:hover{ color: #E74C3C; }
+  }
+}
+
+.dropdown-menu {
+  @include transition (all 0.2s ease-in-out);
+  display: none;
+}
+
+
+.show-menu {
+  display: block;
+}
+
 

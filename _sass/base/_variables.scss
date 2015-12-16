@@ -1,11 +1,10 @@
 
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100|Roboto:400,300,300italic,100,400italic,500,500italic,700,700italic,100italic);
-
+//@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100|Roboto:400,300,300italic,100,400italic,500,500italic,700,700italic,100italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
 // Typography
-$title-font: 'Roboto Slab', serif;
-$base-font-family:'Roboto', sans-serif;
+$title-font: 'Open Sans', sans-serif;
+$base-font-family:'Open Sans', sans-serif;
 $heading-font-family: $title-font;
->>>>>>> last changes
 
 // Font Sizes
 $base-font-size: 1em;
