@@ -1,6 +1,10 @@
+
+//@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100|Roboto:400,300,300italic,100,400italic,500,500italic,700,700italic,100italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
 // Typography
-$base-font-family: $helvetica;
-$heading-font-family: $base-font-family;
+$title-font: 'Open Sans', sans-serif;
+$base-font-family:'Open Sans', sans-serif;
+$heading-font-family: $title-font;
 
 // Font Sizes
 $base-font-size: 1em;
@@ -20,9 +24,18 @@ $blue: #477dca;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
+$bg: #f4f4f4;
+
+//paper colors
+
+$dg-paper: #ECECE6;
+$lg-paper: #f2f2ed;
+$m-paper: #fcfaf5;
+$ly-paper: #f8f7eb;
+$dy-paper: #f3f1e0;
 
 // Font Colors
-$base-background-color: #fff;
+$base-background-color: $bg;
 $base-font-color: $dark-gray;
 $action-color: $blue;
 
