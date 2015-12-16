@@ -4,7 +4,8 @@ email: your-email@domain.com
 description: Projetos de arquitetura/
 email: lfp@gmail.com
 description: Arquitetura e projetos.
-url: "http://beatrizcp87.github.io/lfp-arquitetura/
+baseurl: /lfp-arquitetura
+full_url: "http://beatrizcp87.github.io/lfp-arquitetura/"
 twitter_username: jekyllrb
 github_username:  beatrizcp87
 
