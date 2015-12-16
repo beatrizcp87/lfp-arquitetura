@@ -1,9 +1,9 @@
 # Site settings
-title: Eolica
+title: LFP Arquiterura
 email: your-email@domain.com
-description: Literatura fantástica e ficção científica.
-email: blogeolica@gmail.com
-description: Literature blog.
+description: Projetos de arquitetura/
+email: lfp@gmail.com
+description: Arquitetura e projetos.
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  beatrizcp87
