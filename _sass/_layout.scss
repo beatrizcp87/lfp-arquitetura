@@ -286,9 +286,11 @@ img.logo-center{
   text-align: center;
   h1.logo{
     margin: 300px auto 0 auto;
-    width: 485px;
+    max-width: 485px;
     height: 53px;
     background-image: url('../images/lfp-logo.png');
+    background-repeat: no-repeat ;
+    background-size: 100%;
   }
   .menu{
     margin: 20px auto 0 auto;
