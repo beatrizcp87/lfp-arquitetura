@@ -281,6 +281,16 @@ img.logo-center{
   }
 }
 
+a.login{
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 13px;
+  opacity: 0.5;
+  &:hover{ opacity: 1;}
+}
+
 #lfp{
   background-color: #000;
   text-align: center;
