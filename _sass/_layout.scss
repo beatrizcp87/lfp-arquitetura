@@ -370,6 +370,22 @@ a.client{
 }
 
 
+
+//tablet
+@media only screen and (max-width: 959px){
+  section#clientes{
+    ul li {
+      width: 47%;
+      display: inline-block;
+      margin: 25px 4% 25px 0;
+      &:nth-child(3n){  margin-right: 4%;}
+      &:nth-child(2n){  margin-right: 0;}
+    }
+  }
+}
+
+
+//mobile
 @media screen and (max-width: 40.5em) {
   #lfp .menu{ width: 100%;}
   #lfp h1.logo{margin-top:200px;}
@@ -382,6 +398,8 @@ a.client{
     }
   }
 }
+
+
 
 
 
