@@ -358,6 +358,8 @@ section#clientes{
     width: 30%;
     display: inline-block;
     margin: 25px 3% 0 0;
+    vertical-align: top;
+    p{ font-size: 13px;}
     &:nth-child(3n){  margin-right: 0;}
   }
 }
