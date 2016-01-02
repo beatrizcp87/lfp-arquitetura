@@ -370,5 +370,19 @@ a.client{
 }
 
 
+@media screen and (max-width: 40.5em) {
+  #lfp .menu{ width: 100%;}
+  #lfp h1.logo{margin-top:200px;}
+  section#clientes{
+    ul li {
+      width: 100%;
+      display: block;
+      margin: 25px 0;
+      &:nth-child(3n){  margin-right: 0;}
+    }
+  }
+}
+
+
 
 
