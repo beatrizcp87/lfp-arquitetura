@@ -284,6 +284,7 @@ img.logo-center{
 #lfp{
   background-color: #000;
   text-align: center;
+  margin-bottom: 300px;
   h1.logo{
     margin: 300px auto 0 auto;
     max-width: 485px;
@@ -327,11 +328,12 @@ img.logo-center{
     padding: 0;
     list-style: none;
     cursor: pointer;
+    a{ color: #fff;}
     &:before{
       content: "//";
       margin-right: 10px;
     }
-    &:hover{ color: #E74C3C; }
+    a:hover{ color: #E74C3C; text-decoration: none; }
   }
 }
 
@@ -344,5 +346,21 @@ img.logo-center{
 .show-menu {
   display: block;
 }
+
+section#clientes{
+  h2{font-size: 30px;}
+  ul{ padding: 0; margin: 0;}
+
+  ul li {
+    padding: 20px;
+    border: 2px solid #fff;
+    width: 30%;
+    display: inline-block;
+    margin: 25px 3% 0 0;
+    &:nth-child(3n){  margin-right: 0;}
+  }
+}
+
+
 
 
