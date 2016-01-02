@@ -283,11 +283,14 @@ img.logo-center{
 
 a.login{
   color: #fff;
-  position: absolute;
+  position: fixed;
   right: 20px;
   top: 10px;
   font-size: 13px;
   opacity: 0.5;
+  background-color: #000;
+  padding: 2px 5px;
+  z-index: 1 !important;
   &:hover{ opacity: 1;}
 }
 
