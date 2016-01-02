@@ -359,7 +359,6 @@ a.login{
 section{padding-top:30px;}
 section#sobre-nos{
   padding-top:0;
-  min-height: 770px;
   .ball{
     width: 195px;
     height: 195px;
@@ -383,6 +382,7 @@ section#sobre-nos{
   }
 }
 section#clientes{
+  padding-bottom: 40px;
   h2{font-size: 30px;}
   ul{ padding: 0; margin: 0;}
 
@@ -430,6 +430,13 @@ a.client{
       margin: 25px 0;
       &:nth-child(3n){  margin-right: 0;}
     }
+  }
+  section#sobre-nos{
+    .box{
+      padding: 140px 20px 20px;
+      p{ font-size: 16px;}
+    }
+    .parallax-static-content { padding: 50px 0 0 0;}
   }
 }
 
