@@ -98,7 +98,7 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
@@ -154,18 +154,20 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(900px - (#{$spacing-unit} * 2));
-    max-width:         calc(900px - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(1280px - (#{$spacing-unit} * 2));
+    max-width:         calc(1280px - (#{$spacing-unit} * 2));
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    padding-bottom: 100px;
     //background-color: #fff;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(900px - (#{$spacing-unit}));
-        max-width:         calc(900px - (#{$spacing-unit}));
+        max-width: -webkit-calc(1280px - (#{$spacing-unit}));
+        max-width:         calc(1280px - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }

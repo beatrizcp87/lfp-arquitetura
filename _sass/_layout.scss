@@ -284,6 +284,7 @@ img.logo-center{
 #lfp{
   background-color: #000;
   text-align: center;
+  margin-bottom: 300px;
   h1.logo{
     margin: 300px auto 0 auto;
     max-width: 485px;
@@ -327,11 +328,12 @@ img.logo-center{
     padding: 0;
     list-style: none;
     cursor: pointer;
-    &:before{
+    a{ color: #fff;}
+    a:before{
       content: "//";
       margin-right: 10px;
     }
-    &:hover{ color: #E74C3C; }
+    a:hover{ color: $click; }
   }
 }
 
@@ -344,5 +346,61 @@ img.logo-center{
 .show-menu {
   display: block;
 }
+
+section#clientes{
+  padding-top:30px;
+  h2{font-size: 30px;}
+  ul{ padding: 0; margin: 0;}
+
+  ul li {
+    padding: 20px;
+    border: 2px solid #fff;
+    width: 30%;
+    display: inline-block;
+    margin: 25px 3% 0 0;
+    vertical-align: top;
+    p{ font-size: 13px;}
+    &:nth-child(3n){  margin-right: 0;}
+  }
+}
+
+a.client{
+  color: #fff;
+  &:hover{ color: $click;}
+}
+
+
+
+//tablet
+@media only screen and (max-width: 959px){
+  section#clientes{
+    ul li {
+      width: 47%;
+      display: inline-block;
+      margin: 25px 4% 25px 0;
+      &:nth-child(3n){  margin-right: 4%;}
+      &:nth-child(2n){  margin-right: 0;}
+    }
+  }
+}
+
+
+//mobile
+@media screen and (max-width: 40.5em) {
+  #lfp .menu{ width: 100%;}
+  #lfp h1.logo{margin-top:200px;}
+  section#clientes{
+    ul li {
+      width: 100%;
+      display: block;
+      margin: 25px 0;
+      &:nth-child(3n){  margin-right: 0;}
+    }
+  }
+}
+
+
+
+
 
 
